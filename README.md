@@ -20,9 +20,9 @@ Há mais de 20 anos, crianças do mundo inteiro vêm descobrindo o mundo encanta
 
 Pokémon são criaturas de todas as formas e tamanhos que podem ser selvagens ou então aparecer ao lado de seus parceiros humanos (chamados de “Treinadores”). Durante suas aventuras, os Pokémon crescem e se tornam mais experientes e até, ocasionalmente, evoluem para se tornarem Pokémon ainda mais fortes. Centenas de Pokémon conhecidos habitam o universo Pokémon, com números incontáveis ​​esperando para serem descobertos.
 
-PokéBalls (Pokébolas): item utilizado para capturar pokémons selvagens e adicioná-los à sua equipe de monstrinhos. Pokébolas podem ser adquiridas gratuitamente em PokéStops ou compradas na Loja. É importante observar que existem diferentes tipos de Pokébolas, cada uma com seu nível de força (normais, Great Balls, Ultra Balls e Master Balls).
+**PokéBalls (Pokébolas):** item utilizado para capturar pokémons selvagens e adicioná-los à sua equipe de monstrinhos. Pokébolas podem ser adquiridas gratuitamente em PokéStops ou compradas na Loja. É importante observar que existem diferentes tipos de Pokébolas, cada uma com seu nível de força (normais, Great Balls, Ultra Balls e Master Balls).
 
-Trainer (Treinador): alcunha oferecida aos jogadores de Pokémon GO. Treinadores são aqueles que capturam pokémons selvagens e os domesticam para batalhar contra outros indivíduos.
+**Trainer (Treinador):** alcunha oferecida aos jogadores de Pokémon GO. Treinadores são aqueles que capturam pokémons selvagens e os domesticam para batalhar contra outros indivíduos.
 
 A seguir, é apresentado na Figura 1 as características básicas de um Pokémon:
 
@@ -48,3 +48,33 @@ A seguir, é apresentado na Figura 1 as características básicas de um Pokémon
 - Quantos pokémons de cada tipo existem? Crie uma consulta que responda esta pergunta.
 - Qual o tipo de pokémon que mais acumulou derrotas ao final do torneio?
 - Crie uma visão (view) que liste o quadro final de classificação do torneio, ordenado pelo número de vitórias. Treinadores com o mesmo número de vitórias devem ser listados em ordem lexicográfica.
+
+## 👩‍💻 Automações
+- Crie uma função/procedimento que recebe o identificador de um pokémon e de uma pokébola. Esta função se chamará evoluir(). A função evoluir() deve trocar o pokémon que está na pokebola de um treinador para a próxima evolução deste pokémon. Caso o pokémon já esteja na sua última evolução possível, mantenha-o como está.
+- Crie um gatilho/trigger onde qualquer pokémon que atingir a sua quinta vitória evolua imediatamente. Obs.: Dos três pokémons que podem ser utilizados por um treinador numa batalha, somente o último que estiver na arena de batalha evoluirá.  Caso o pokémon já esteja na sua última evolução possível, mantenha-o como está.
+- Crie uma função/procedimento para encontrar os top 10 pokémons com o mais tempo de batalha, evolua todos para sua próxima evolução. Caso o pokémon já esteja na sua última evolução possível, mantenha-o como está.
+
+
+Todas as tarefas devem ser entregue via Moodle (ava.ufms.br). Na Tarefa 1 entregue um arquivo PDF (der.pdf) ou PNG (der.png) contendo o diagrama da modelagem. Na Tarefa 2, deve ser entregue o arquivo estrutura_e_dados.sql (COM DADOS) com os comandos SQL usados para criar as tabelas, bem como respectivo arquivo PDF chamado dicionario_de_dados.pdf, contendo todo o dicionário de dados após construir o modelo relacional. Compacte o arquivo contendo os arquivos mencionados anteriormente, juntamente com um arquivo README.txt contendo o nome e o RGA dos integrantes, bem como o link para a apresentação.
+
+Coloque o LINK para a apresentação do grupo gravada no Youtube (link oculto/não listado). Você pode utilizar outro serviço gratuito para hospedar o vídeo, como por exemplo o Vimeo.com na versão básica. Você pode também enviar o vídeo para o Google Drive e disponibilizar o link para o professor. Teste o link fornecido em uma janela anônima para verificar se o professor conseguirá abrí-lo.
+
+## 🤳 Apresentação
+
+Cada grupo deverá gravar um vídeo de no máximo 10 minutos explicando como resolveu o problema proposto. Respondendo os seguintes itens na apresentação:
+
+- Apresente-se falando o nome completo e qual curso cada integrante do grupo pertence;
+- Apresentar as tabelas e seus respectivos atributos. Apresente as principais decisões tomadas;
+- Quais requisitos foram mais difíceis de implementar;
+- Mostre o funcionamento das consultas/visões solicitadas na seção 3;
+- Mostre o funcionamento das funções e gatilhos apresentados na seção 4;
+- A apresentação é um Item indispensável para obter a nota do trabalho. Os alunos que não apresentarem terão sua nota final do trabalho composta apenas pela nota geral do grupo, obtida pela entrega do banco de dados e eventuais códigos.
+
+O vídeo não pode ter cortes ou edições que interrompam o fluxo contínuo da apresentação. Softwares como Google Meet, Zoom.us, Skype podem ser úteis. O Zoom gratuito permite que você grave a reunião localmente.
+
+## 🤺 Regras
+
+- Não serão aceitos trabalhos atrasados. Se o grupo não entregar o trabalho no dia combinado, ele receberá nota zero.
+- Em caso de projetos copiados de colegas ou qualquer outra fonte, todos os envolvidos recebem nota zero. Lembre-se é muito improvável que haja trabalhos totalmente iguais.
+- O professor poderá tirar dúvidas conceituais em horário de aula, por email, ava ou horário de atendimento.
+- A nota dos integrantes não necessariamente será a mesma. Se durante a apresentação o professor detectar que algum integrante do grupo não tem domínio sobre o projeto, ele poderá receber uma nota menor que os demais integrantes.
