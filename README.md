@@ -54,8 +54,10 @@ A seguir, é apresentado na Figura 1 as características básicas de um Pokémon
 - Crie um gatilho/trigger onde qualquer pokémon que atingir a sua quinta vitória evolua imediatamente. Obs.: Dos três pokémons que podem ser utilizados por um treinador numa batalha, somente o último que estiver na arena de batalha evoluirá.  Caso o pokémon já esteja na sua última evolução possível, mantenha-o como está.
 - Crie uma função/procedimento para encontrar os top 10 pokémons com o mais tempo de batalha, evolua todos para sua próxima evolução. Caso o pokémon já esteja na sua última evolução possível, mantenha-o como está.
 
-
-Todas as tarefas devem ser entregue via Moodle (ava.ufms.br). Na Tarefa 1 entregue um arquivo PDF (der.pdf) ou PNG (der.png) contendo o diagrama da modelagem. Na Tarefa 2, deve ser entregue o arquivo estrutura_e_dados.sql (COM DADOS) com os comandos SQL usados para criar as tabelas, bem como respectivo arquivo PDF chamado dicionario_de_dados.pdf, contendo todo o dicionário de dados após construir o modelo relacional. Compacte o arquivo contendo os arquivos mencionados anteriormente, juntamente com um arquivo README.txt contendo o nome e o RGA dos integrantes, bem como o link para a apresentação.
+Todas as tarefas devem ser entregue via Moodle (ava.ufms.br).
+Na Tarefa 1 entregue um arquivo PDF (der.pdf) ou PNG (der.png) contendo o diagrama da modelagem. 
+Na Tarefa 2, deve ser entregue o arquivo estrutura_e_dados.sql (COM DADOS) com os comandos SQL usados para criar as tabelas, bem como respectivo arquivo PDF chamado dicionario_de_dados.pdf, contendo todo o dicionário de dados após construir o modelo relacional. 
+Compacte o arquivo contendo os arquivos mencionados anteriormente, juntamente com um arquivo README.txt contendo o nome e o RGA dos integrantes, bem como o link para a apresentação.
 
 Coloque o LINK para a apresentação do grupo gravada no Youtube (link oculto/não listado). Você pode utilizar outro serviço gratuito para hospedar o vídeo, como por exemplo o Vimeo.com na versão básica. Você pode também enviar o vídeo para o Google Drive e disponibilizar o link para o professor. Teste o link fornecido em uma janela anônima para verificar se o professor conseguirá abrí-lo.
 
