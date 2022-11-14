@@ -9,9 +9,9 @@ Quando os requisitos descritos não forem suficientes para fazer a modelagem, os
 
 O trabalho é dividido em etapas. Em cada etapa uma tarefa (ou um conjunto de tarefas) deve ser realizado, conforme descrito a seguir:
 
-[] Tarefa 1: Modelar o banco de dados usando o Modelo Entidade-Relacionamento (Estendido se necessário). Para esta atividade, o DER deve ser usado. É importante que os requisitos adicionais definidos pelos alunos sejam também entregues e modelados. Para cada um dos itens descritos na seção 2, os alunos devem informar como estes foram modelados usando o Modelo Entidade-Relacionamento. Um dicionário de dados deve ser desenvolvido para descrever cada tabela e cada atributo da modelagem.
+**Tarefa 1**: Modelar o banco de dados usando o Modelo Entidade-Relacionamento (Estendido se necessário). Para esta atividade, o DER deve ser usado. É importante que os requisitos adicionais definidos pelos alunos sejam também entregues e modelados. Para cada um dos itens descritos na seção 2, os alunos devem informar como estes foram modelados usando o Modelo Entidade-Relacionamento. Um dicionário de dados deve ser desenvolvido para descrever cada tabela e cada atributo da modelagem.
 
-[] Tarefa 2: Converter o modelo entidade relacionamento para o modelo relacional, comentando quais escolhas foram feitas para a conversão de cada uma das entidades, relacionamentos, hierarquias e agregações. O comando SQL de cada tabela deve ser fornecido.
+**Tarefa 2**: Converter o modelo entidade relacionamento para o modelo relacional, comentando quais escolhas foram feitas para a conversão de cada uma das entidades, relacionamentos, hierarquias e agregações. O comando SQL de cada tabela deve ser fornecido.
 
 ## ✅ Requisitos
 Há mais de 20 anos, crianças do mundo inteiro vêm descobrindo o mundo encantado de Pokémon e muitas delas se tornam fãs para a vida toda. Hoje, a família de produtos Pokémon inclui videogames, o jogo de cartas Pokémon Estampas Ilustradas, uma série de animação, filmes, brinquedos, livros e muito mais. Tanto os videogames Pokémon quanto o Pokémon Estampas Ilustradas incentivam o pensamento estratégico, além de habilidades de leitura e matemática. Pokémon também enfatiza o espírito esportivo e o respeito por outros jogadores.
