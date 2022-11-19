@@ -71,7 +71,7 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.batalha (
-    id integer NOT NULL
+    id integer UNIQUE NOT NULL
 );
 
 
@@ -96,10 +96,11 @@ ALTER TABLE public.evolucao OWNER TO postgres;
 --
 
 CREATE TABLE public.habilidade (
-    id integer NOT NULL,
+    id integer unique NOT NULL,
     nome character varying,
     descricao character varying,
-    dano integer
+    dano integer,
+    PRIMARY KEY (id)
 );
 
 
@@ -111,8 +112,9 @@ ALTER TABLE public.habilidade OWNER TO postgres;
 --
 
 CREATE TABLE public.instancia_pokemon (
-    id_instancia integer NOT NULL,
-    fk_pokemon_numero_pokedex integer
+    id_instancia integer unique NOT NULL,
+    fk_pokemon_numero_pokedex integer,
+    PRIMARY KEY (id_instancia)
 );
 
 
@@ -138,6 +140,7 @@ ALTER TABLE public.pokebola OWNER TO postgres;
 --
 
 CREATE TABLE public.pokemon (
+    id_pokemon integer unique NOT NULL,
     nome character varying,
     altura double precision,
     peso double precision,
@@ -150,7 +153,8 @@ CREATE TABLE public.pokemon (
     tipo_1 character varying,
     tipo_2 character varying,
     numero_pokedex integer NOT NULL,
-    fk_pokebola_id integer
+    fk_pokebola_id integer,
+    PRIMARY KEY (id_pokemon)
 );
 
 
@@ -162,8 +166,10 @@ ALTER TABLE public.pokemon OWNER TO postgres;
 --
 
 CREATE TABLE public.pokemon_habilidade (
+    id_pokemon_habilidade integer unique NOT NULL,
     fk_pokemon_numero_pokedex integer,
-    fk_habilidade_id integer
+    fk_habilidade_id integer,
+    PRIMARY KEY (id_pokemon_habilidade)
 );
 
 
@@ -175,10 +181,14 @@ ALTER TABLE public.pokemon_habilidade OWNER TO postgres;
 --
 
 CREATE TABLE public.round (
-    id integer NOT NULL,
+    id integer unique NOT NULL,
     fk_batalha_id integer,
     fk_instancia_pokemon_id_1 integer NOT NULL,
-    fk_instancia_pokemon_id_2 integer NOT NULL
+    fk_instancia_pokemon_id_2 integer NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (fk_batalha_id) REFERENCES public.batalha(id),
+    FOREIGN KEY (fk_instancia_pokemon_id_1) REFERENCES public.instancia_pokemon(id_instancia),
+    FOREIGN KEY (fk_instancia_pokemon_id_2) REFERENCES public.instancia_pokemon(id_instancia)
 );
 
 
@@ -190,7 +200,9 @@ ALTER TABLE public.round OWNER TO postgres;
 --
 
 CREATE TABLE public.torneio (
-    nome character varying
+    id integer unique NOT NULL,
+    nome character varying,
+    PRIMARY KEY (id)
 );
 
 
@@ -204,7 +216,8 @@ ALTER TABLE public.torneio OWNER TO postgres;
 CREATE TABLE public.treinador (
     nome character varying,
     id integer NOT NULL,
-    xp integer
+    xp integer,
+    PRIMARY KEY (id)
 );
 
 
@@ -216,8 +229,10 @@ ALTER TABLE public.treinador OWNER TO postgres;
 --
 
 CREATE TABLE public.treinador_batalha (
+    id_treinador_batalha integer unique NOT NULL,
     fk_treinador_id integer,
-    fk_batalha_id integer
+    fk_batalha_id integer,
+    PRIMARY KEY (id_treinador_batalha)
 );
 
 
@@ -229,13 +244,15 @@ ALTER TABLE public.treinador_batalha OWNER TO postgres;
 --
 
 CREATE TABLE public.turno (
+    id_turno integer unique NOT NULL,
     escudo_1_uso boolean,
     escudo_2_uso boolean,
     dano_causado_pokemon_1 integer,
     dano_causado_pokemon_2 integer,
     habilidade_pokemon_1 integer,
     habilidade_pokemon_2 character varying,
-    fk_round_id integer
+    fk_round_id integer,
+    PRIMARY KEY (id_turno)
 );
 
 
@@ -344,107 +361,3 @@ ALTER TABLE public.turno OWNER TO postgres;
 
 ALTER TABLE ONLY public.batalha
     ADD CONSTRAINT batalha_pkey PRIMARY KEY (id);
-
-
---
--- TOC entry 3230 (class 2606 OID 16782)
--- Name: habilidade habilidade_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.habilidade
-    ADD CONSTRAINT habilidade_pkey PRIMARY KEY (id);
-
-
---
--- TOC entry 3226 (class 2606 OID 16760)
--- Name: instancia_pokemon instancia_pokemon_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.instancia_pokemon
-    ADD CONSTRAINT instancia_pokemon_pkey PRIMARY KEY (id_instancia);
-
-
---
--- TOC entry 3232 (class 2606 OID 16789)
--- Name: pokebola pokebola_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.pokebola
-    ADD CONSTRAINT pokebola_pkey PRIMARY KEY (id);
-
-
---
--- TOC entry 3222 (class 2606 OID 16747)
--- Name: pokemon pokemon_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.pokemon
-    ADD CONSTRAINT pokemon_pkey PRIMARY KEY (numero_pokedex);
-
-
---
--- TOC entry 3228 (class 2606 OID 16770)
--- Name: round round_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.round
-    ADD CONSTRAINT round_pkey PRIMARY KEY (id, fk_instancia_pokemon_id_1, fk_instancia_pokemon_id_2);
-
-
---
--- TOC entry 3220 (class 2606 OID 16740)
--- Name: treinador treinador_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.treinador
-    ADD CONSTRAINT treinador_pkey PRIMARY KEY (id);
-
-
---
--- TOC entry 3234 (class 2606 OID 16801)
--- Name: evolucao fk_evolucao_1; Type: FK CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.evolucao
-    ADD CONSTRAINT fk_evolucao_1 FOREIGN KEY (fk_pokemon_npokedex_atual) REFERENCES public.pokemon(numero_pokedex) ON DELETE CASCADE;
-
-
---
--- TOC entry 3235 (class 2606 OID 16806)
--- Name: instancia_pokemon fk_instancia_pokemon_2; Type: FK CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.instancia_pokemon
-    ADD CONSTRAINT fk_instancia_pokemon_2 FOREIGN KEY (fk_pokemon_numero_pokedex) REFERENCES public.pokemon(numero_pokedex) ON DELETE RESTRICT;
-
-
---
--- TOC entry 3233 (class 2606 OID 16796)
--- Name: pokemon fk_pokemon_2; Type: FK CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.pokemon
-    ADD CONSTRAINT fk_pokemon_2 FOREIGN KEY (fk_pokebola_id) REFERENCES public.pokebola(id) ON DELETE CASCADE;
-
-
---
--- TOC entry 3236 (class 2606 OID 16811)
--- Name: round fk_round_2; Type: FK CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.round
-    ADD CONSTRAINT fk_round_2 FOREIGN KEY (fk_batalha_id) REFERENCES public.batalha(id) ON DELETE RESTRICT;
-
-ALTER TABLE ONLY public.treinador_batalha
-    ADD CONSTRAINT fk_treinador FOREIGN KEY (fk_treinador_id) REFERENCES public.treinador(id) ON DELETE RESTRICT;
-
-
-ALTER TABLE ONLY public.treinador_batalha
-    ADD CONSTRAINT fk_batalha FOREIGN KEY (fk_batalha_id) REFERENCES public.batalha(id) ON DELETE RESTRICT;
-
--- Completed on 2022-11-19 05:52:20 UTC
-
---
--- PostgreSQL database dump complete
---
-
