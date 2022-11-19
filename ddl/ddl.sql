@@ -43,16 +43,6 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 --
--- TOC entry 4 (class 2615 OID 2200)
--- Name: public; Type: SCHEMA; Schema: -; Owner: pg_database_owner
---
-
-CREATE SCHEMA public;
-
-
-ALTER SCHEMA public OWNER TO pg_database_owner;
-
---
 -- TOC entry 3397 (class 0 OID 0)
 -- Dependencies: 4
 -- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: pg_database_owner
@@ -127,8 +117,9 @@ ALTER TABLE public.instancia_pokemon OWNER TO postgres;
 
 CREATE TABLE public.pokebola (
     nivel_de_forca character varying,
-    id integer NOT NULL,
-    fk_treinador_id integer
+    id integer unique NOT NULL,
+    fk_treinador_id integer,
+    PRIMARY KEY (id)
 );
 
 
@@ -258,106 +249,26 @@ CREATE TABLE public.turno (
 
 ALTER TABLE public.turno OWNER TO postgres;
 
---
--- TOC entry 3381 (class 0 OID 16748)
--- Dependencies: 216
--- Data for Name: batalha; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3382 (class 0 OID 16753)
--- Dependencies: 217
--- Data for Name: evolucao; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3387 (class 0 OID 16776)
--- Dependencies: 222
--- Data for Name: habilidade; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3383 (class 0 OID 16756)
--- Dependencies: 218
--- Data for Name: instancia_pokemon; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3388 (class 0 OID 16783)
--- Dependencies: 223
--- Data for Name: pokebola; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3380 (class 0 OID 16741)
--- Dependencies: 215
--- Data for Name: pokemon; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3389 (class 0 OID 16790)
--- Dependencies: 224
--- Data for Name: pokemon_habilidade; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3385 (class 0 OID 16766)
--- Dependencies: 220
--- Data for Name: round; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3384 (class 0 OID 16761)
--- Dependencies: 219
--- Data for Name: torneio; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3379 (class 0 OID 16734)
--- Dependencies: 214
--- Data for Name: treinador; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3390 (class 0 OID 16793)
--- Dependencies: 225
--- Data for Name: treinador_batalha; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3386 (class 0 OID 16771)
--- Dependencies: 221
--- Data for Name: turno; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-
-
---
--- TOC entry 3224 (class 2606 OID 16752)
--- Name: batalha batalha_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
 
 ALTER TABLE ONLY public.batalha
     ADD CONSTRAINT batalha_pkey PRIMARY KEY (id);
+
+
+ALTER TABLE ONLY public.pokebola
+    ADD CONSTRAINT fk_treinador_pokebola FOREIGN KEY (fk_treinador_id) REFERENCES public.treinador(id);
+
+ALTER TABLE ONLY public.treinador_batalha
+    ADD CONSTRAINT fk_treinador_batalha_batalha_id FOREIGN KEY (fk_batalha_id) REFERENCES public.batalha(id),
+    ADD CONSTRAINT fk_treinador_batalha_treinador_id FOREIGN KEY (fk_treinador_id) REFERENCES public.treinador(id);
+
+ALTER TABLE ONLY public.turno
+    ADD CONSTRAINT fk_turno_round FOREIGN KEY (fk_round_id) REFERENCES public.round(id),
+    ADD CONSTRAINT fk_habilidade_pokemon_1 FOREIGN KEY (habilidade_pokemon_1) REFERENCES public.pokemon_habilidade(id_pokemon_habilidade),
+    ADD CONSTRAINT fk_habilidade_pokemon_2 FOREIGN KEY (habilidade_pokemon_2) REFERENCES public.pokemon_habilidade(id_pokemon_habilidade),
+    ALTER COLUMN habilidade_pokemon_2 TYPE integer USING (habilidade_pokemon_2::integer);
+
+ALTER TABLE ONLY public.pokemon_habilidade
+    ADD CONSTRAINT fk_pokemon_habilidade_pokemon FOREIGN KEY (fk_habilidade_id) REFERENCES public.habilidade(id);
+
+ALTER TABLE ONLY public.pokemon
+    ADD CONSTRAINT fk_pokemon_pokebola FOREIGN KEY (fk_pokebola_id) REFERENCES public.pokebola(id);
