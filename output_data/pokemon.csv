@@ -1,0 +1,4 @@
+nome,altura,peso,id_pokemon,hp,ataque,defesa,ataque_especial,defesa_especial,velocidade,tipo_1,tipo_2,numero_pokedex
+bulbasaur,7,69,1,45,49,49,65,65,45,grass,poison,1
+ivysaur,10,130,2,60,62,63,80,80,60,grass,poison,2
+venusaur,20,1000,3,80,82,83,100,100,80,grass,poison,3
