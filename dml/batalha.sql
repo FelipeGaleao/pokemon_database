@@ -167,5 +167,4 @@ INSERT INTO public.batalha(id) VALUES
 (166),
 (167),
 (168),
-(169),
-(
+(169);
