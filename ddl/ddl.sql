@@ -29,7 +29,7 @@ CREATE DATABASE pokemon_db WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PR
 
 ALTER DATABASE pokemon_db OWNER TO postgres;
 
-\connect pokemon_db
+connect pokemon_db
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
