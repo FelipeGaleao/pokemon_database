@@ -1,3 +1,9 @@
+| Alunos | RGA |
+| - | - |
+| João Pedro Santos Vareiro | 2021.1906.035-2 |
+| Maycon Felipe da Silva Mota | 2021.1906.069-7 |
+| Vítor Oliveira Resende Brandão | 2021.1906.027-1 |
+
 # pokemon_database
 ## 🎯 Objetivo
 O objetivo principal do trabalho é modelar um banco de dados relacional para um dado problema e realizar um conjunto de consultas SQL nesse banco.
