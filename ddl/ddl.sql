@@ -268,7 +268,7 @@ ALTER TABLE ONLY public.turno
     ALTER COLUMN habilidade_pokemon_2 TYPE integer USING (habilidade_pokemon_2::integer);
 
 ALTER TABLE ONLY public.pokemon_habilidade
-    ADD CONSTRAINT fk_pokemon_habilidade_pokemon FOREIGN KEY (fk_habilidade_id) REFERENCES public.habilidade(id);
+    ADD CONSTRAINT fk_pokemon_habilidade_pokemon FOREIGN KEY (fk_habilidade_id) REFERENCES public.habilidade(id),
     ADD CONSTRAINT fk_pokemon_numero_pokedex FOREIGN KEY (fk_pokemon_numero_pokedex) REFERENCES public.pokemon(id_pokemon);
 
 ALTER TABLE ONLY public.pokemon
