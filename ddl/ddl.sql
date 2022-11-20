@@ -43,7 +43,9 @@ ALTER TABLE public.habilidade OWNER TO postgres;
 CREATE TABLE public.instancia_pokemon (
     id_instancia integer unique NOT NULL,
     fk_pokemon_numero_pokedex integer,
-    PRIMARY KEY (id_instancia)
+    fk_pokebola_id integer NOT NULL,
+    PRIMARY KEY (id_instancia),
+    FOREIGN KEY (fk_pokebola_id) REFERENCES public.pokebola(id)
 );
 
 
@@ -83,7 +85,6 @@ CREATE TABLE public.pokemon (
     tipo_1 character varying,
     tipo_2 character varying,
     numero_pokedex integer NOT NULL,
-    fk_pokebola_id integer,
     PRIMARY KEY (id_pokemon)
 );
 
