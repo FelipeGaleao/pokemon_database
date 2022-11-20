@@ -10,7 +10,7 @@ GO
 
 -- Criar tabela Pokemon
 CREATE TABLE pokemon(
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY NOT NULL,
     nome VARCHAR(50) NOT NULL,
     altura FLOAT NOT NULL,
     peso FLOAT NOT NULL,
@@ -45,7 +45,7 @@ CREATE TABLE pokebola(
 
 -- Criar tabela Habilidades
 CREATE TABLE habilidades(
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY NOT NULL,
     nome VARCHAR(50) NOT NULL,
     descricao VARCHAR(50) NOT NULL,
     dano float NOT NULL,
@@ -63,7 +63,7 @@ CREATE TABLE pokemon_habilidades(
 
 -- Criar tabela Evolucao
 CREATE TABLE evolucao(
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY NOT NULL,
     nome VARCHAR(50) NOT NULL,
     id_pokemon INT NOT NULL,
     CONSTRAINT fk_evolucao_pokemon FOREIGN KEY(id_pokemon) REFERENCES pokemon(id)
@@ -71,7 +71,7 @@ CREATE TABLE evolucao(
 
 -- Criar tabela Torneio
 CREATE TABLE torneio(
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY NOT NULL,
     nome VARCHAR(50) NOT NULL,
 )
 
@@ -86,7 +86,7 @@ CREATE TABLE torneio_batalha(
 
 -- Criar tabela Batalha
 CREATE TABLE batalha(
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY NOT NULL,
     treinador_1 INT NOT NULL,
     treinador_2 INT NOT NULL,
     pokemon_1 INT NOT NULL,
