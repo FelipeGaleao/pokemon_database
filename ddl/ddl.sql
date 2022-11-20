@@ -133,7 +133,7 @@ CREATE TABLE public.torneio (
     id integer unique NOT NULL,
     nome character varying,
     fk_torneio_id integer not null,
-    PRIMARY KEY (id)
+    PRIMARY KEY (id),
     FOREIGN KEY (fk_torneio_id) REFERENCES public.torneio(id)
 );
 
@@ -214,5 +214,3 @@ ALTER TABLE ONLY public.pokemon_habilidade
 
 ALTER TABLE ONLY public.instancia_pokemon
     ADD CONSTRAINT fk_instancia_pokemon_pokemon FOREIGN KEY (fk_pokebola_id) REFERENCES public.pokebola(id);
-
-    
