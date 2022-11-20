@@ -44,8 +44,7 @@ CREATE TABLE public.instancia_pokemon (
     id_instancia integer unique NOT NULL,
     fk_pokemon_numero_pokedex integer,
     fk_pokebola_id integer NOT NULL,
-    PRIMARY KEY (id_instancia),
-    FOREIGN KEY (fk_pokebola_id) REFERENCES public.pokebola(id)
+    PRIMARY KEY (id_instancia)
 );
 
 
@@ -212,4 +211,8 @@ ALTER TABLE ONLY public.turno
 ALTER TABLE ONLY public.pokemon_habilidade
     ADD CONSTRAINT fk_pokemon_habilidade_pokemon FOREIGN KEY (fk_habilidade_id) REFERENCES public.habilidade(id),
     ADD CONSTRAINT fk_pokemon_numero_pokedex FOREIGN KEY (fk_pokemon_numero_pokedex) REFERENCES public.pokemon(id_pokemon);
- 
+
+ALTER TABLE ONLY public.instancia_pokemon
+    ADD CONSTRAINT fk_instancia_pokemon_pokemon FOREIGN KEY (fk_pokebola_id) REFERENCES public.pokebola(id);
+
+    
