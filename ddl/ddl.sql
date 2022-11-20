@@ -1,64 +1,3 @@
---
--- PostgreSQL database dump
---
-
--- Dumped from database version 15.1 (Debian 15.1-1.pgdg110+1)
--- Dumped by pg_dump version 15.0
-
--- Started on 2022-11-19 05:52:20 UTC
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET xmloption = content;
-SET client_min_messages = warning;
-SET row_security = off;
-
-DROP DATABASE pokemon_db;
---
--- TOC entry 3396 (class 1262 OID 16569)
--- Name: pokemon_db; Type: DATABASE; Schema: -; Owner: postgres
---
-
-CREATE DATABASE pokemon_db WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'en_US.utf8';
-
-
-ALTER DATABASE pokemon_db OWNER TO postgres;
-
-connect pokemon_db
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SELECT pg_catalog.set_config('search_path', '', false);
-SET check_function_bodies = false;
-SET xmloption = content;
-SET client_min_messages = warning;
-SET row_security = off;
-
---
--- TOC entry 3397 (class 0 OID 0)
--- Dependencies: 4
--- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: pg_database_owner
---
-
-COMMENT ON SCHEMA public IS 'standard public schema';
-
-
-SET default_tablespace = '';
-
-SET default_table_access_method = heap;
-
---
--- TOC entry 216 (class 1259 OID 16748)
--- Name: batalha; Type: TABLE; Schema: public; Owner: postgres
---
 
 CREATE TABLE public.batalha (
     id integer UNIQUE NOT NULL
@@ -193,7 +132,9 @@ ALTER TABLE public.round OWNER TO postgres;
 CREATE TABLE public.torneio (
     id integer unique NOT NULL,
     nome character varying,
+    fk_torneio_id integer not null,
     PRIMARY KEY (id)
+    FOREIGN KEY (fk_torneio_id) REFERENCES public.torneio(id)
 );
 
 
