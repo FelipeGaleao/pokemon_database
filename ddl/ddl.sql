@@ -132,7 +132,9 @@ ALTER TABLE public.round OWNER TO postgres;
 CREATE TABLE public.torneio (
     id integer unique NOT NULL,
     nome character varying,
+    fk_torneio_id integer not null,
     PRIMARY KEY (id)
+    FOREIGN KEY (fk_torneio_id) REFERENCES public.torneio(id)
 );
 
 
