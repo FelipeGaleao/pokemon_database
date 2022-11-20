@@ -1,0 +1,977 @@
+id,nome,descricao,dano
+0,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+1,cut,Inflicts regular damage.,50
+2,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+3,vine-whip,Inflicts regular damage.,45
+4,cut,Inflicts regular damage.,50
+5,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+6,vine-whip,Inflicts regular damage.,45
+7,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+8,cut,Inflicts regular damage.,50
+9,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+10,vine-whip,Inflicts regular damage.,45
+11,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+12,mega-punch,Inflicts regular damage.,80
+13,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+14,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+15,scratch,Inflicts regular damage.,40
+16,mega-punch,Inflicts regular damage.,80
+17,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+18,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+19,scratch,Inflicts regular damage.,40
+20,mega-punch,Inflicts regular damage.,80
+21,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+22,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+23,scratch,Inflicts regular damage.,40
+24,mega-punch,Inflicts regular damage.,80
+25,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+26,mega-kick,Inflicts regular damage.,120
+27,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+28,mega-punch,Inflicts regular damage.,80
+29,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+30,mega-kick,Inflicts regular damage.,120
+31,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+32,mega-punch,Inflicts regular damage.,80
+33,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+34,mega-kick,Inflicts regular damage.,120
+35,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+36,tackle,Inflicts regular damage.,40
+37,snore,Only usable if the user is sleeping.  Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,50
+38,bug-bite,"Inflicts regular damage.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.
+
+If the target is holding a jaboca berry or rowap berry, the berry is still removed, but has no effect.
+
+If this move is super effective and the target is holding a berry that can reduce this move's damage, it will do so, and will not be stolen.",60
+39,electroweb,Lowers the target's Speed by one stage.,55
+40,bug-bite,"Inflicts regular damage.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.
+
+If the target is holding a jaboca berry or rowap berry, the berry is still removed, but has no effect.
+
+If this move is super effective and the target is holding a berry that can reduce this move's damage, it will do so, and will not be stolen.",60
+41,electroweb,Lowers the target's Speed by one stage.,55
+42,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+43,gust,"Inflicts regular damage.
+
+If the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",40
+44,poison-sting,Inflicts regular damage.  Has a $effect_chance% chance to poison the target.,15
+45,bug-bite,"Inflicts regular damage.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.
+
+If the target is holding a jaboca berry or rowap berry, the berry is still removed, but has no effect.
+
+If this move is super effective and the target is holding a berry that can reduce this move's damage, it will do so, and will not be stolen.",60
+46,electroweb,Lowers the target's Speed by one stage.,55
+47,bug-bite,"Inflicts regular damage.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.
+
+If the target is holding a jaboca berry or rowap berry, the berry is still removed, but has no effect.
+
+If this move is super effective and the target is holding a berry that can reduce this move's damage, it will do so, and will not be stolen.",60
+48,cut,Inflicts regular damage.,50
+49,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+50,fury-attack,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+51,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+52,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+53,gust,"Inflicts regular damage.
+
+If the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",40
+54,wing-attack,Inflicts regular damage.,60
+55,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+56,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+57,gust,"Inflicts regular damage.
+
+If the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",40
+58,wing-attack,Inflicts regular damage.,60
+59,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+60,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+61,gust,"Inflicts regular damage.
+
+If the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",40
+62,wing-attack,Inflicts regular damage.,60
+63,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+64,cut,Inflicts regular damage.,50
+65,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+66,tackle,Inflicts regular damage.,40
+67,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+68,cut,Inflicts regular damage.,50
+69,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+70,tackle,Inflicts regular damage.,40
+71,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+72,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+73,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+74,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+75,fury-attack,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+76,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+77,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+78,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+79,fury-attack,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+80,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+81,slam,Inflicts regular damage.,80
+82,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+83,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+84,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+85,slam,Inflicts regular damage.,80
+86,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+87,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+88,mega-punch,Inflicts regular damage.,80
+89,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+90,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+91,slam,Inflicts regular damage.,80
+92,mega-punch,Inflicts regular damage.,80
+93,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+94,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+95,slam,Inflicts regular damage.,80
+96,scratch,Inflicts regular damage.,40
+97,cut,Inflicts regular damage.,50
+98,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+99,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+100,scratch,Inflicts regular damage.,40
+101,cut,Inflicts regular damage.,50
+102,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+103,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+104,scratch,Inflicts regular damage.,40
+105,cut,Inflicts regular damage.,50
+106,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+107,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+108,scratch,Inflicts regular damage.,40
+109,cut,Inflicts regular damage.,50
+110,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+111,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+112,mega-punch,Inflicts regular damage.,80
+113,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+114,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+115,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+116,cut,Inflicts regular damage.,50
+117,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+118,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+119,horn-attack,Inflicts regular damage.,65
+120,cut,Inflicts regular damage.,50
+121,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+122,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+123,horn-attack,Inflicts regular damage.,65
+124,mega-punch,Inflicts regular damage.,80
+125,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+126,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+127,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+128,pound,Inflicts regular damage.,40
+129,double-slap,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+130,mega-punch,Inflicts regular damage.,80
+131,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+132,pound,Inflicts regular damage.,40
+133,double-slap,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+134,mega-punch,Inflicts regular damage.,80
+135,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+136,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+137,tackle,Inflicts regular damage.,40
+138,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+139,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+140,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+141,tackle,Inflicts regular damage.,40
+142,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+143,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+144,pound,Inflicts regular damage.,40
+145,double-slap,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+146,mega-punch,Inflicts regular damage.,80
+147,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+148,pound,Inflicts regular damage.,40
+149,double-slap,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+150,mega-punch,Inflicts regular damage.,80
+151,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+152,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+153,gust,"Inflicts regular damage.
+
+If the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",40
+154,wing-attack,Inflicts regular damage.,60
+155,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+156,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+157,wing-attack,Inflicts regular damage.,60
+158,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+159,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+160,cut,Inflicts regular damage.,50
+161,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+162,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+163,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+164,cut,Inflicts regular damage.,50
+165,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+166,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+167,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+168,cut,Inflicts regular damage.,50
+169,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+170,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+171,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+172,scratch,Inflicts regular damage.,40
+173,cut,Inflicts regular damage.,50
+174,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+175,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+176,scratch,Inflicts regular damage.,40
+177,cut,Inflicts regular damage.,50
+178,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+179,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+180,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+181,tackle,Inflicts regular damage.,40
+182,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+183,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+184,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+185,gust,"Inflicts regular damage.
+
+If the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",40
+186,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+187,tackle,Inflicts regular damage.,40
+188,scratch,Inflicts regular damage.,40
+189,cut,Inflicts regular damage.,50
+190,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+191,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+192,scratch,Inflicts regular damage.,40
+193,cut,Inflicts regular damage.,50
+194,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+195,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+196,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+197,scratch,Inflicts regular damage.,40
+198,cut,Inflicts regular damage.,50
+199,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+200,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+201,scratch,Inflicts regular damage.,40
+202,cut,Inflicts regular damage.,50
+203,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+204,mega-punch,Inflicts regular damage.,80
+205,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+206,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+207,scratch,Inflicts regular damage.,40
+208,mega-punch,Inflicts regular damage.,80
+209,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+210,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+211,scratch,Inflicts regular damage.,40
+212,karate-chop,Inflicts regular damage.  User's critical hit rate is one level higher when using this move.,50
+213,mega-punch,Inflicts regular damage.,80
+214,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+215,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+216,karate-chop,Inflicts regular damage.  User's critical hit rate is one level higher when using this move.,50
+217,mega-punch,Inflicts regular damage.,80
+218,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+219,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+220,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+221,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+222,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+223,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+224,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+225,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+226,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+227,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+228,pound,Inflicts regular damage.,40
+229,double-slap,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+230,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+231,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+232,pound,Inflicts regular damage.,40
+233,double-slap,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+234,mega-punch,Inflicts regular damage.,80
+235,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+236,pound,Inflicts regular damage.,40
+237,double-slap,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+238,mega-punch,Inflicts regular damage.,80
+239,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+240,mega-punch,Inflicts regular damage.,80
+241,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+242,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+243,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+244,mega-punch,Inflicts regular damage.,80
+245,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+246,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+247,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+248,mega-punch,Inflicts regular damage.,80
+249,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+250,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+251,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+252,karate-chop,Inflicts regular damage.  User's critical hit rate is one level higher when using this move.,50
+253,mega-punch,Inflicts regular damage.,80
+254,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+255,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+256,karate-chop,Inflicts regular damage.  User's critical hit rate is one level higher when using this move.,50
+257,mega-punch,Inflicts regular damage.,80
+258,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+259,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+260,karate-chop,Inflicts regular damage.  User's critical hit rate is one level higher when using this move.,50
+261,mega-punch,Inflicts regular damage.,80
+262,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+263,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+264,cut,Inflicts regular damage.,50
+265,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+266,slam,Inflicts regular damage.,80
+267,vine-whip,Inflicts regular damage.,45
+268,cut,Inflicts regular damage.,50
+269,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+270,slam,Inflicts regular damage.,80
+271,vine-whip,Inflicts regular damage.,45
+272,cut,Inflicts regular damage.,50
+273,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+274,vine-whip,Inflicts regular damage.,45
+275,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+276,cut,Inflicts regular damage.,50
+277,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+278,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+279,wrap,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+280,cut,Inflicts regular damage.,50
+281,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+282,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+283,wrap,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+284,mega-punch,Inflicts regular damage.,80
+285,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+286,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+287,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+288,mega-punch,Inflicts regular damage.,80
+289,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+290,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+291,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+292,mega-punch,Inflicts regular damage.,80
+293,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+294,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+295,mega-kick,Inflicts regular damage.,120
+296,stomp,"Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.
+
+Power is doubled against Pokémon that have used minimize since entering the field.",65
+297,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+298,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+299,tackle,Inflicts regular damage.,40
+300,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+301,stomp,"Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.
+
+Power is doubled against Pokémon that have used minimize since entering the field.",65
+302,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+303,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+304,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+305,stomp,"Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.
+
+Power is doubled against Pokémon that have used minimize since entering the field.",65
+306,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+307,tackle,Inflicts regular damage.,40
+308,mega-punch,Inflicts regular damage.,80
+309,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+310,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+311,stomp,"Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.
+
+Power is doubled against Pokémon that have used minimize since entering the field.",65
+312,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+313,tackle,Inflicts regular damage.,40
+314,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+315,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+316,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+317,tackle,Inflicts regular damage.,40
+318,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+319,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+320,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+321,cut,Inflicts regular damage.,50
+322,gust,"Inflicts regular damage.
+
+If the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",40
+323,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+324,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+325,jump-kick,"Inflicts regular damage. If this move misses, is blocked by protect or detect, or has no effect, the user takes damage equal to half of its max HP rounded down.
+
+This move cannot be used while gravity is in effect.",100
+326,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+327,fury-attack,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+328,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+329,jump-kick,"Inflicts regular damage. If this move misses, is blocked by protect or detect, or has no effect, the user takes damage equal to half of its max HP rounded down.
+
+This move cannot be used while gravity is in effect.",100
+330,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+331,fury-attack,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+332,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+333,slam,Inflicts regular damage.,80
+334,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+335,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+336,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+337,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+338,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+339,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+340,pound,Inflicts regular damage.,40
+341,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+342,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+343,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+344,pound,Inflicts regular damage.,40
+345,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+346,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+347,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+348,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+349,tackle,Inflicts regular damage.,40
+350,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+351,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+352,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+353,tackle,Inflicts regular damage.,40
+354,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+355,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+356,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+357,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+358,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+359,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+360,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+361,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+362,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+363,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+364,mega-punch,Inflicts regular damage.,80
+365,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+366,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+367,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+368,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+369,slam,Inflicts regular damage.,80
+370,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+371,tackle,Inflicts regular damage.,40
+372,pound,Inflicts regular damage.,40
+373,mega-punch,Inflicts regular damage.,80
+374,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+375,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+376,pound,Inflicts regular damage.,40
+377,mega-punch,Inflicts regular damage.,80
+378,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+379,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+380,vice-grip,Inflicts regular damage.,55
+381,cut,Inflicts regular damage.,50
+382,slam,Inflicts regular damage.,80
+383,stomp,"Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.
+
+Power is doubled against Pokémon that have used minimize since entering the field.",65
+384,vice-grip,Inflicts regular damage.,55
+385,cut,Inflicts regular damage.,50
+386,slam,Inflicts regular damage.,80
+387,stomp,"Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.
+
+Power is doubled against Pokémon that have used minimize since entering the field.",65
+388,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+389,tackle,Inflicts regular damage.,40
+390,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+391,thunder-shock,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,40
+392,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+393,tackle,Inflicts regular damage.,40
+394,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+395,hyper-beam,"Inflicts regular damage.  User loses its next turn to ""recharge"", and cannot attack or switch out during that turn.",150
+396,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+397,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+398,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+399,psybeam,Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.,65
+400,stomp,"Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.
+
+Power is doubled against Pokémon that have used minimize since entering the field.",65
+401,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+402,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+403,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+404,mega-punch,Inflicts regular damage.,80
+405,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+406,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+407,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+408,mega-punch,Inflicts regular damage.,80
+409,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+410,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+411,mega-kick,Inflicts regular damage.,120
+412,mega-punch,Inflicts regular damage.,80
+413,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+414,mega-kick,Inflicts regular damage.,120
+415,jump-kick,"Inflicts regular damage. If this move misses, is blocked by protect or detect, or has no effect, the user takes damage equal to half of its max HP rounded down.
+
+This move cannot be used while gravity is in effect.",100
+416,comet-punch,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",18
+417,mega-punch,Inflicts regular damage.,80
+418,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+419,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+420,mega-punch,Inflicts regular damage.,80
+421,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+422,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+423,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+424,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+425,tackle,Inflicts regular damage.,40
+426,flamethrower,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,90
+427,psybeam,Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.,65
+428,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+429,tackle,Inflicts regular damage.,40
+430,flamethrower,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,90
+431,psybeam,Inflicts regular damage.  Has a $effect_chance% chance to confuse the target.,65
+432,stomp,"Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.
+
+Power is doubled against Pokémon that have used minimize since entering the field.",65
+433,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+434,horn-attack,Inflicts regular damage.,65
+435,fury-attack,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+436,mega-punch,Inflicts regular damage.,80
+437,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+438,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+439,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+440,pound,Inflicts regular damage.,40
+441,double-slap,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+442,mega-punch,Inflicts regular damage.,80
+443,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+444,cut,Inflicts regular damage.,50
+445,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+446,slam,Inflicts regular damage.,80
+447,vine-whip,Inflicts regular damage.,45
+448,pound,Inflicts regular damage.,40
+449,comet-punch,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",18
+450,mega-punch,Inflicts regular damage.,80
+451,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+452,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+453,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+454,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+455,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+456,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+457,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+458,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+459,water-gun,Inflicts regular damage.,40
+460,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+461,horn-attack,Inflicts regular damage.,65
+462,fury-attack,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+463,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+464,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+465,horn-attack,Inflicts regular damage.,65
+466,fury-attack,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+467,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+468,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+469,tackle,Inflicts regular damage.,40
+470,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+471,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+472,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+473,tackle,Inflicts regular damage.,40
+474,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+475,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+476,pound,Inflicts regular damage.,40
+477,double-slap,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+478,mega-punch,Inflicts regular damage.,80
+479,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+480,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+481,cut,Inflicts regular damage.,50
+482,wing-attack,Inflicts regular damage.,60
+483,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+484,pound,Inflicts regular damage.,40
+485,double-slap,"Inflicts regular damage.  Hits 2–5 times in one turn.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",15
+486,mega-punch,Inflicts regular damage.,80
+487,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+488,mega-punch,Inflicts regular damage.,80
+489,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+490,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+491,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+492,mega-punch,Inflicts regular damage.,80
+493,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+494,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+495,mega-kick,Inflicts regular damage.,120
+496,vice-grip,Inflicts regular damage.,55
+497,cut,Inflicts regular damage.,50
+498,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+499,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+500,stomp,"Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.
+
+Power is doubled against Pokémon that have used minimize since entering the field.",65
+501,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+502,horn-attack,Inflicts regular damage.,65
+503,tackle,Inflicts regular damage.,40
+504,tackle,Inflicts regular damage.,40
+505,hydro-pump,Inflicts regular damage.,110
+506,bounce,"Inflicts regular damage.  User bounces high into the air for one turn, becoming immune to attack, and hits on the second turn.  Has a $effect_chance% chance to paralyze the target.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, and twister still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",85
+507,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+508,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+509,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+510,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+511,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+512,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+513,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+514,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+515,tackle,Inflicts regular damage.,40
+516,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+517,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+518,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+519,tackle,Inflicts regular damage.,40
+520,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+521,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+522,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+523,tackle,Inflicts regular damage.,40
+524,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+525,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+526,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+527,tackle,Inflicts regular damage.,40
+528,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+529,tackle,Inflicts regular damage.,40
+530,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+531,double-edge,Inflicts regular damage.  User takes 1/3 the damage it inflicts in recoil.,120
+532,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+533,slam,Inflicts regular damage.,80
+534,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+535,horn-attack,Inflicts regular damage.,65
+536,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+537,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+538,horn-attack,Inflicts regular damage.,65
+539,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+540,scratch,Inflicts regular damage.,40
+541,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+542,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+543,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+544,scratch,Inflicts regular damage.,40
+545,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+546,cut,Inflicts regular damage.,50
+547,mega-kick,Inflicts regular damage.,120
+548,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+549,wing-attack,Inflicts regular damage.,60
+550,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+551,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+552,mega-punch,Inflicts regular damage.,80
+553,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+554,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+555,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+556,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+557,gust,"Inflicts regular damage.
+
+If the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",40
+558,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+559,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+560,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+561,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+562,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+563,take-down,Inflicts regular damage.  User takes 1/4 the damage it inflicts in recoil.,90
+564,razor-wind,"Inflicts regular damage.  User's critical hit rate is one level higher when using this move.  User charges for one turn before attacking.
+
+This move cannot be selected by sleep talk.",80
+565,gust,"Inflicts regular damage.
+
+If the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",40
+566,wing-attack,Inflicts regular damage.,60
+567,fly,"Inflicts regular damage.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.
+
+During the immune turn, gust, hurricane, sky uppercut, smack down, thunder, twister, and whirlwind still hit the user normally.  gust and twister also have double power against the user.
+
+The damage from hail and sandstorm still applies during the immune turn.
+
+The user may be hit during its immune turn if under the effect of lock on, mind reader, or no guard.
+
+This move cannot be used while gravity is in effect.
+
+This move cannot be selected by sleep talk.",90
+568,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+569,slam,Inflicts regular damage.,80
+570,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+571,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+572,bind,"Inflicts regular damage.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the field, this effect ends.
+
+Has a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.
+
+rapid spin cancels this effect.",15
+573,slam,Inflicts regular damage.,80
+574,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+575,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+576,mega-punch,Inflicts regular damage.,80
+577,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+578,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+579,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+580,mega-punch,Inflicts regular damage.,80
+581,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+582,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+583,ice-punch,Inflicts regular damage.  Has a $effect_chance% chance to freeze the target.,75
+584,pound,Inflicts regular damage.,40
+585,mega-punch,Inflicts regular damage.,80
+586,pay-day,"Inflicts regular damage.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",40
+587,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+588,cut,Inflicts regular damage.,50
+589,vine-whip,Inflicts regular damage.,45
+590,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+591,tackle,Inflicts regular damage.,40
+592,cut,Inflicts regular damage.,50
+593,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+594,tackle,Inflicts regular damage.,40
+595,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+596,cut,Inflicts regular damage.,50
+597,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+598,tackle,Inflicts regular damage.,40
+599,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+600,cut,Inflicts regular damage.,50
+601,double-kick,Inflicts regular damage.  Hits twice in one turn.,30
+602,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+603,tackle,Inflicts regular damage.,40
+604,cut,Inflicts regular damage.,50
+605,headbutt,Inflicts regular damage.  Has a $effect_chance% chance to make the target flinch.,70
+606,tackle,Inflicts regular damage.,40
+607,body-slam,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,85
+608,mega-punch,Inflicts regular damage.,80
+609,fire-punch,Inflicts regular damage.  Has a $effect_chance% chance to burn the target.,75
+610,thunder-punch,Inflicts regular damage.  Has a $effect_chance% chance to paralyze the target.,75
+611,cut,Inflicts regular damage.,50

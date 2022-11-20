@@ -1,0 +1,513 @@
+nivel_de_forca,id,fk_treinador_id
+normal,1,1
+great ball,2,1
+ultra ball,3,1
+master ball,4,1
+normal,5,2
+great ball,6,2
+ultra ball,7,2
+master ball,8,2
+normal,9,3
+great ball,10,3
+ultra ball,11,3
+master ball,12,3
+normal,13,4
+great ball,14,4
+ultra ball,15,4
+master ball,16,4
+normal,17,5
+great ball,18,5
+ultra ball,19,5
+master ball,20,5
+normal,21,6
+great ball,22,6
+ultra ball,23,6
+master ball,24,6
+normal,25,7
+great ball,26,7
+ultra ball,27,7
+master ball,28,7
+normal,29,8
+great ball,30,8
+ultra ball,31,8
+master ball,32,8
+normal,33,9
+great ball,34,9
+ultra ball,35,9
+master ball,36,9
+normal,37,10
+great ball,38,10
+ultra ball,39,10
+master ball,40,10
+normal,41,11
+great ball,42,11
+ultra ball,43,11
+master ball,44,11
+normal,45,12
+great ball,46,12
+ultra ball,47,12
+master ball,48,12
+normal,49,13
+great ball,50,13
+ultra ball,51,13
+master ball,52,13
+normal,53,14
+great ball,54,14
+ultra ball,55,14
+master ball,56,14
+normal,57,15
+great ball,58,15
+ultra ball,59,15
+master ball,60,15
+normal,61,16
+great ball,62,16
+ultra ball,63,16
+master ball,64,16
+normal,65,17
+great ball,66,17
+ultra ball,67,17
+master ball,68,17
+normal,69,18
+great ball,70,18
+ultra ball,71,18
+master ball,72,18
+normal,73,19
+great ball,74,19
+ultra ball,75,19
+master ball,76,19
+normal,77,20
+great ball,78,20
+ultra ball,79,20
+master ball,80,20
+normal,81,21
+great ball,82,21
+ultra ball,83,21
+master ball,84,21
+normal,85,22
+great ball,86,22
+ultra ball,87,22
+master ball,88,22
+normal,89,23
+great ball,90,23
+ultra ball,91,23
+master ball,92,23
+normal,93,24
+great ball,94,24
+ultra ball,95,24
+master ball,96,24
+normal,97,25
+great ball,98,25
+ultra ball,99,25
+master ball,100,25
+normal,101,26
+great ball,102,26
+ultra ball,103,26
+master ball,104,26
+normal,105,27
+great ball,106,27
+ultra ball,107,27
+master ball,108,27
+normal,109,28
+great ball,110,28
+ultra ball,111,28
+master ball,112,28
+normal,113,29
+great ball,114,29
+ultra ball,115,29
+master ball,116,29
+normal,117,30
+great ball,118,30
+ultra ball,119,30
+master ball,120,30
+normal,121,31
+great ball,122,31
+ultra ball,123,31
+master ball,124,31
+normal,125,32
+great ball,126,32
+ultra ball,127,32
+master ball,128,32
+normal,129,33
+great ball,130,33
+ultra ball,131,33
+master ball,132,33
+normal,133,34
+great ball,134,34
+ultra ball,135,34
+master ball,136,34
+normal,137,35
+great ball,138,35
+ultra ball,139,35
+master ball,140,35
+normal,141,36
+great ball,142,36
+ultra ball,143,36
+master ball,144,36
+normal,145,37
+great ball,146,37
+ultra ball,147,37
+master ball,148,37
+normal,149,38
+great ball,150,38
+ultra ball,151,38
+master ball,152,38
+normal,153,39
+great ball,154,39
+ultra ball,155,39
+master ball,156,39
+normal,157,40
+great ball,158,40
+ultra ball,159,40
+master ball,160,40
+normal,161,41
+great ball,162,41
+ultra ball,163,41
+master ball,164,41
+normal,165,42
+great ball,166,42
+ultra ball,167,42
+master ball,168,42
+normal,169,43
+great ball,170,43
+ultra ball,171,43
+master ball,172,43
+normal,173,44
+great ball,174,44
+ultra ball,175,44
+master ball,176,44
+normal,177,45
+great ball,178,45
+ultra ball,179,45
+master ball,180,45
+normal,181,46
+great ball,182,46
+ultra ball,183,46
+master ball,184,46
+normal,185,47
+great ball,186,47
+ultra ball,187,47
+master ball,188,47
+normal,189,48
+great ball,190,48
+ultra ball,191,48
+master ball,192,48
+normal,193,49
+great ball,194,49
+ultra ball,195,49
+master ball,196,49
+normal,197,50
+great ball,198,50
+ultra ball,199,50
+master ball,200,50
+normal,201,51
+great ball,202,51
+ultra ball,203,51
+master ball,204,51
+normal,205,52
+great ball,206,52
+ultra ball,207,52
+master ball,208,52
+normal,209,53
+great ball,210,53
+ultra ball,211,53
+master ball,212,53
+normal,213,54
+great ball,214,54
+ultra ball,215,54
+master ball,216,54
+normal,217,55
+great ball,218,55
+ultra ball,219,55
+master ball,220,55
+normal,221,56
+great ball,222,56
+ultra ball,223,56
+master ball,224,56
+normal,225,57
+great ball,226,57
+ultra ball,227,57
+master ball,228,57
+normal,229,58
+great ball,230,58
+ultra ball,231,58
+master ball,232,58
+normal,233,59
+great ball,234,59
+ultra ball,235,59
+master ball,236,59
+normal,237,60
+great ball,238,60
+ultra ball,239,60
+master ball,240,60
+normal,241,61
+great ball,242,61
+ultra ball,243,61
+master ball,244,61
+normal,245,62
+great ball,246,62
+ultra ball,247,62
+master ball,248,62
+normal,249,63
+great ball,250,63
+ultra ball,251,63
+master ball,252,63
+normal,253,64
+great ball,254,64
+ultra ball,255,64
+master ball,256,64
+normal,257,65
+great ball,258,65
+ultra ball,259,65
+master ball,260,65
+normal,261,66
+great ball,262,66
+ultra ball,263,66
+master ball,264,66
+normal,265,67
+great ball,266,67
+ultra ball,267,67
+master ball,268,67
+normal,269,68
+great ball,270,68
+ultra ball,271,68
+master ball,272,68
+normal,273,69
+great ball,274,69
+ultra ball,275,69
+master ball,276,69
+normal,277,70
+great ball,278,70
+ultra ball,279,70
+master ball,280,70
+normal,281,71
+great ball,282,71
+ultra ball,283,71
+master ball,284,71
+normal,285,72
+great ball,286,72
+ultra ball,287,72
+master ball,288,72
+normal,289,73
+great ball,290,73
+ultra ball,291,73
+master ball,292,73
+normal,293,74
+great ball,294,74
+ultra ball,295,74
+master ball,296,74
+normal,297,75
+great ball,298,75
+ultra ball,299,75
+master ball,300,75
+normal,301,76
+great ball,302,76
+ultra ball,303,76
+master ball,304,76
+normal,305,77
+great ball,306,77
+ultra ball,307,77
+master ball,308,77
+normal,309,78
+great ball,310,78
+ultra ball,311,78
+master ball,312,78
+normal,313,79
+great ball,314,79
+ultra ball,315,79
+master ball,316,79
+normal,317,80
+great ball,318,80
+ultra ball,319,80
+master ball,320,80
+normal,321,81
+great ball,322,81
+ultra ball,323,81
+master ball,324,81
+normal,325,82
+great ball,326,82
+ultra ball,327,82
+master ball,328,82
+normal,329,83
+great ball,330,83
+ultra ball,331,83
+master ball,332,83
+normal,333,84
+great ball,334,84
+ultra ball,335,84
+master ball,336,84
+normal,337,85
+great ball,338,85
+ultra ball,339,85
+master ball,340,85
+normal,341,86
+great ball,342,86
+ultra ball,343,86
+master ball,344,86
+normal,345,87
+great ball,346,87
+ultra ball,347,87
+master ball,348,87
+normal,349,88
+great ball,350,88
+ultra ball,351,88
+master ball,352,88
+normal,353,89
+great ball,354,89
+ultra ball,355,89
+master ball,356,89
+normal,357,90
+great ball,358,90
+ultra ball,359,90
+master ball,360,90
+normal,361,91
+great ball,362,91
+ultra ball,363,91
+master ball,364,91
+normal,365,92
+great ball,366,92
+ultra ball,367,92
+master ball,368,92
+normal,369,93
+great ball,370,93
+ultra ball,371,93
+master ball,372,93
+normal,373,94
+great ball,374,94
+ultra ball,375,94
+master ball,376,94
+normal,377,95
+great ball,378,95
+ultra ball,379,95
+master ball,380,95
+normal,381,96
+great ball,382,96
+ultra ball,383,96
+master ball,384,96
+normal,385,97
+great ball,386,97
+ultra ball,387,97
+master ball,388,97
+normal,389,98
+great ball,390,98
+ultra ball,391,98
+master ball,392,98
+normal,393,99
+great ball,394,99
+ultra ball,395,99
+master ball,396,99
+normal,397,100
+great ball,398,100
+ultra ball,399,100
+master ball,400,100
+normal,401,101
+great ball,402,101
+ultra ball,403,101
+master ball,404,101
+normal,405,102
+great ball,406,102
+ultra ball,407,102
+master ball,408,102
+normal,409,103
+great ball,410,103
+ultra ball,411,103
+master ball,412,103
+normal,413,104
+great ball,414,104
+ultra ball,415,104
+master ball,416,104
+normal,417,105
+great ball,418,105
+ultra ball,419,105
+master ball,420,105
+normal,421,106
+great ball,422,106
+ultra ball,423,106
+master ball,424,106
+normal,425,107
+great ball,426,107
+ultra ball,427,107
+master ball,428,107
+normal,429,108
+great ball,430,108
+ultra ball,431,108
+master ball,432,108
+normal,433,109
+great ball,434,109
+ultra ball,435,109
+master ball,436,109
+normal,437,110
+great ball,438,110
+ultra ball,439,110
+master ball,440,110
+normal,441,111
+great ball,442,111
+ultra ball,443,111
+master ball,444,111
+normal,445,112
+great ball,446,112
+ultra ball,447,112
+master ball,448,112
+normal,449,113
+great ball,450,113
+ultra ball,451,113
+master ball,452,113
+normal,453,114
+great ball,454,114
+ultra ball,455,114
+master ball,456,114
+normal,457,115
+great ball,458,115
+ultra ball,459,115
+master ball,460,115
+normal,461,116
+great ball,462,116
+ultra ball,463,116
+master ball,464,116
+normal,465,117
+great ball,466,117
+ultra ball,467,117
+master ball,468,117
+normal,469,118
+great ball,470,118
+ultra ball,471,118
+master ball,472,118
+normal,473,119
+great ball,474,119
+ultra ball,475,119
+master ball,476,119
+normal,477,120
+great ball,478,120
+ultra ball,479,120
+master ball,480,120
+normal,481,121
+great ball,482,121
+ultra ball,483,121
+master ball,484,121
+normal,485,122
+great ball,486,122
+ultra ball,487,122
+master ball,488,122
+normal,489,123
+great ball,490,123
+ultra ball,491,123
+master ball,492,123
+normal,493,124
+great ball,494,124
+ultra ball,495,124
+master ball,496,124
+normal,497,125
+great ball,498,125
+ultra ball,499,125
+master ball,500,125
+normal,501,126
+great ball,502,126
+ultra ball,503,126
+master ball,504,126
+normal,505,127
+great ball,506,127
+ultra ball,507,127
+master ball,508,127
+normal,509,128
+great ball,510,128
+ultra ball,511,128
+master ball,512,128
