@@ -212,6 +212,4 @@ ALTER TABLE ONLY public.turno
 ALTER TABLE ONLY public.pokemon_habilidade
     ADD CONSTRAINT fk_pokemon_habilidade_pokemon FOREIGN KEY (fk_habilidade_id) REFERENCES public.habilidade(id),
     ADD CONSTRAINT fk_pokemon_numero_pokedex FOREIGN KEY (fk_pokemon_numero_pokedex) REFERENCES public.pokemon(id_pokemon);
-
-ALTER TABLE ONLY public.pokemon
-    ADD CONSTRAINT fk_pokemon_pokebola FOREIGN KEY (fk_pokebola_id) REFERENCES public.pokebola(id);
+ 
