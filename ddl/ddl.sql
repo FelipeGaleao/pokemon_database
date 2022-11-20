@@ -1,4 +1,7 @@
 
+DROP Schema public cascade;
+CREATE Schema public;
+
 CREATE TABLE public.batalha (
     id integer UNIQUE NOT NULL
 );
