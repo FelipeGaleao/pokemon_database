@@ -5,6 +5,8 @@ services:
     container_name: 'meucontainer'
     image: postgres
     restart: always
+    volume:
+      - ./data/postgres_pokemon.sql:/postgres_pokemon.sql
     environment:
       POSTGRES_PASSWORD: minhasenha
     ports:
