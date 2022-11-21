@@ -3,7 +3,8 @@ DROP Schema public cascade;
 CREATE Schema public;
 
 CREATE TABLE public.batalha (
-    id integer UNIQUE NOT NULL
+    id integer UNIQUE NOT NULL,
+    fk_torneio_id integer
 );
 
 
@@ -135,9 +136,7 @@ ALTER TABLE public.round OWNER TO postgres;
 CREATE TABLE public.torneio (
     id integer unique NOT NULL,
     nome character varying,
-    fk_torneio_id integer not null,
-    PRIMARY KEY (id),
-    FOREIGN KEY (fk_torneio_id) REFERENCES public.torneio(id)
+    PRIMARY KEY (id)
 );
 
 
@@ -217,3 +216,7 @@ ALTER TABLE ONLY public.pokemon_habilidade
 
 ALTER TABLE ONLY public.instancia_pokemon
     ADD CONSTRAINT fk_instancia_pokemon_pokemon FOREIGN KEY (fk_pokebola_id) REFERENCES public.pokebola(id);
+
+
+ALTER TABLE ONLY public.batalha
+    ADD CONSTRAINT fk_torneio_id FOREIGN KEY (fk_torneio_id) REFERENCES public.torneio(id);
